@@ -1,0 +1,9 @@
+server {
+    listen 80;
+
+    server_name shopware.local;
+    root /home/bcremer/www/sw4;
+
+    # Include shopware configuration.
+    include global/shopware.conf;
+}
