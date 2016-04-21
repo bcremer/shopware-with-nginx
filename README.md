@@ -13,12 +13,16 @@ This configuration is tested with Shopware 5.1 or later.
 1. Move the old `/etc/nginx` directory to `/etc/nginx.old`.
 2. Clone the git repository from github:
 
+    ```
     git clone https://github.com/bcremer/shopware-with-nginx.git /etc/nginx
-
+    ```
+    
 3. Setup the PHP-FPM upstream in `conf.d/upstream.conf`
 4. Edit or copy the `sites-available/example.com.conf` configuration file to suit your requirements.
 5. Enable your site configuration
 
+    ```
     ln -s ../sites-available/example.com.conf /etc/nginx/sites-enabled/
-
-5. Reload nginx
+    ```
+    
+6. Reload nginx
