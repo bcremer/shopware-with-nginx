@@ -6,5 +6,5 @@ This is an example configuration from running [Shopware](https://github.com/shop
 This configuration is heavily inspired by [perusio's](https://github.com/perusio/drupal-with-nginx/) drupal-configuration.
 
 ## Compatibility
-This configuration is tested with Shopware 4.3 or later.
+This configuration is tested with Shopware 5.1 or later.
 
