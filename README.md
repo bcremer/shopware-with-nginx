@@ -5,6 +5,10 @@ This is an example configuration from running [Shopware](https://github.com/shop
 
 This configuration is heavily inspired by [perusio's](https://github.com/perusio/drupal-with-nginx/) drupal-configuration.
 
+## Warning
+Please only use nginx if you know what you are doing. Shopware AG is not officially supporting nginx. 
+Also note that Shopware will not run faster with nginx. A properly configured apache webserver is in most cases as fast as nginx.
+
 ## Compatibility
 This configuration is tested with Shopware 5.1 or later.
 
