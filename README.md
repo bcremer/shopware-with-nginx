@@ -6,7 +6,7 @@ This is an example configuration from running [Shopware](https://github.com/shop
 This configuration is heavily inspired by [perusio's](https://github.com/perusio/drupal-with-nginx/) drupal-configuration.
 
 ## Warning
-Please only use nginx if you know what you are doing. Shopware AG is not officially supporting nginx. 
+Please only use nginx if you know what you are doing. Shopware AG provides no support for running nginx as appserver. 
 Also note that Shopware will not run faster with nginx. A properly configured apache webserver is in most cases as fast as nginx.
 
 ## Compatibility
